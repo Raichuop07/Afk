@@ -24,6 +24,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Database to save your chats and stats... Get MongoDB:-  https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb#4.-youll-see-a-deploy-cloud-database-option.-please-select-shared-hosting-under-free-plan-here
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
+LOGGER_ID = getenv("LOGGER_ID", None)
 # SUDO USERS
 SUDO_USER = list(
     map(int, getenv("SUDO_USER", "").split())
