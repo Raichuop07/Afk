@@ -74,6 +74,9 @@ async def on_private_start(_, message: Message):
                         text="➕ Add me to a Group",
                         url=f"https://t.me/{botusername}?startgroup=true",
                     ),
+                    [
+            InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇꜱ˼", url="https://t.me/MOONLIGHT_SAGA"),
+            InlineKeyboardButton(text="˹ꜱᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/kavyabotsupport}"
                 ]
             ]
         )
