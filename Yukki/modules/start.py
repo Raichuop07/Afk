@@ -77,6 +77,7 @@ async def on_private_start(_, message: Message):
                     [
             InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇꜱ˼", url="https://t.me/MOONLIGHT_SAGA"),
             InlineKeyboardButton(text="˹ꜱᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/kavyabotsupport"},
+                    ]
                 ]
             ]
         )
